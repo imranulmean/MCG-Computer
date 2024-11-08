@@ -1,7 +1,26 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Carousel } from "flowbite-react";
+import { useEffect } from 'react';
 
 export default function Slider() {
+      useEffect(() => {
+        // Select all elements with the 'count_one' class
+        const odometerElements = document.querySelectorAll('.count_one');
+        
+        // Loop through each element to initialize and set the odometer
+        odometerElements.forEach((el) => {
+            const targetValue = parseInt(el.getAttribute('data-count')) || 0; // Use data-count attribute or default to 0
+
+            // Initialize Odometer for each element
+            el.odometer = new Odometer({
+                el: el,
+                value: 0,
+            });
+
+            // Update to target value
+            el.odometer.update(targetValue);
+        });
+    }, []);  
     return (
       <>
         <section class="h2_banner-area">
