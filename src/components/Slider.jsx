@@ -3,6 +3,7 @@ import { Carousel } from "flowbite-react";
 
 export default function Slider() {
     return (
+      <>
         <section class="h2_banner-area">
           <div class="h2_single-banner">
               <div class="container">
@@ -28,5 +29,136 @@ export default function Slider() {
               </div>
           </div>
         </section>
+
+        <div class="counter-area pt-45 pb-45">
+            <div class="container">
+                <div class="counter-wrap">
+                    <div class="row g-0">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="counter-item">
+                                <div class="counter-icon">
+                                    <i class="fa-thin fa-stars"></i>
+                                </div>
+                                <div class="counter-info">
+                                    <h3 class="counter-info-title">
+                                        <span class="odometer count_one" data-count="30">00</span>
+                                        <span>+</span>
+                                    </h3>
+                                    <span class="counter-info-text">Years of Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="counter-item">
+                                <div class="counter-icon">
+                                    <i class="fa-thin fa-award"></i>
+                                </div>
+                                <div class="counter-info">
+                                    <h3 class="counter-info-title">
+                                        <span class="odometer count_one" data-count="100">00</span>
+                                        <span>+</span>
+                                    </h3>
+                                    <span class="counter-info-text">Certified Engineers</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="counter-item1">
+                                <div class="counter-icon">
+                                    <i class="fa-thin fa-users"></i>
+                                </div>
+                                <div class="counter-info">
+                                    <h3 class="counter-info-title">
+                                        <span class="odometer count_one" data-count="500">00</span>
+                                        <span>+</span>
+                                    </h3>
+                                    <span class="counter-info-text">Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="h3_category-area pt-45 pb-45">
+                <div class="container">
+                    <div class="row align-items-end mb-30">
+                        <div class="section-area">
+                            <h2 class="section-title text-center mb-0">Proactive IT Solutions Designed to Fuel Your Success</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6">
+                            <a href="#"><div class="h3_category-item mb-30">
+                                <div class="h3_category-item-icon">
+                                    <img src="assets/img/mcg/icons/home/28.png" />
+                                </div>
+                                <div class="h3_category_inner">
+                                    <div class="h3_category-item-content">
+                                        <h5>Cyber Security</h5>
+                                        <p>Our cyber security solutions are designed to protect your data and keep it secure, as well as meet Australian regulatory requirements. Our solutions are always aligned with the current legal landscape.</p>
+                                    </div>
+                                </div>
+                                <div class="service_btn"><div class="h3_category_link">
+                                    <div>Learn More</div>
+                                    <div><i class="fa-thin fa-arrow-up-right"></i></div>
+                                </div></div>
+                            </div></a>
+                        </div>    
+                        <div class="col-xl-3 col-lg-6">
+                            <a href="#"><div class="h3_category-item mb-30">
+                                <div class="h3_category-item-icon">
+                                    <img src="assets/img/mcg/icons/home/20.png" />
+                                </div>
+                                <div class="h3_category_inner">
+                                    <div class="h3_category-item-content">
+                                        <h5>Managed services</h5>
+                                        <p>We provide comprehensive and secure managed technology services to help you get the most out of your business in Australia. Our team of professionals has extensive knowledge and expertise in various technologies.</p>
+                                    </div>
+                                </div>
+                                <div class="service_btn"><div class="h3_category_link">
+                                    <div>Learn More</div>
+                                    <div><i class="fa-thin fa-arrow-up-right"></i></div>
+                                </div></div>
+                            </div></a>
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+                            <a href="#"><div class="h3_category-item mb-30">
+                                <div class="h3_category-item-icon">
+                                    <img src="assets/img/mcg/icons/home/26.png" />
+                                </div>
+                                <div class="h3_category_inner">
+                                    <div class="h3_category-item-content">
+                                        <h5>Cloud Solutions</h5>
+                                        <p>Utilise our advanced communication and collaboration technology solutions to optimise productivity and enable seamless hybrid or remote work capabilities for your team.</p>
+                                    </div>
+                                </div>
+                                <div class="service_btn"><div class="h3_category_link">
+                                    <div>Learn More</div>
+                                    <div><i class="fa-thin fa-arrow-up-right"></i></div>
+                                </div></div>
+                            </div></a>
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+                            <a href="#"><div class="h3_category-item mb-30">
+                                <div class="h3_category-item-icon">
+                                    <img src="/assets/img/27.png" />
+                                </div>
+                                <div class="h3_category_inner">
+                                    <div class="h3_category-item-content">
+                                        <h5>PC and Notebook Repair</h5>
+                                        <p>We partner with leading global technology vendors to provideautomated business processes and increase efficiency across your organisation.</p>
+                                    </div>
+                                </div>
+                                <div class="service_btn"><div class="h3_category_link">
+                                    <div>Learn More</div>
+                                    <div><i class="fa-thin fa-arrow-up-right"></i></div>
+                                </div></div>
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+            </section>        
+      </>  
       );
 }
