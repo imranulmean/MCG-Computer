@@ -12,4 +12,8 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  define: {
+    $: 'window.jQuery',
+    jQuery: 'window.jQuery',
+  },
 });

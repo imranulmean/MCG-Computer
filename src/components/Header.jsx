@@ -8,6 +8,30 @@ export default function Header() {
 
   return (
     <>
+        {/*  sidebar-information-area-start */}
+        <div class="sidebar-info side-info">
+            <div class="sidebar-logo-wrapper mb-25">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-8">
+                        <div class="sidebar-logo">
+                            <Link to="/">
+                                <img src="assets/img/MCG-Logo.png" alt="logo-img" />
+                            </Link>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-4">
+                        <div class="sidebar-close-wrapper text-end">
+                            <button class="sidebar-close side-info-close"><i class="fal fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-menu-wrapper fix">
+                <div class="mobile-menu"></div>
+            </div>
+        </div>
+        <div class="offcanvas-overlay"></div>
+        {/* sidebar-information-area-end      */}
         <header>
           <div class="h7_header-top d-none d-md-block">
               <div class="container">
@@ -30,9 +54,9 @@ export default function Header() {
                       <div class="col-xl-4 col-lg-4 col-md-6 col-6">
                           <div class="header-left">
                               <div class="header-logo">
-                                  <a href="https://arunodhai.com/MCG-Computer/newPage">
-                                    <img src="https://arunodhai.com/MCG-Computer/newPage/assets/img/mcg/MCG-Logo.png" alt="" />
-                                  </a>
+                                  <Link to ="/">
+                                    <img src="/assets/img/MCG-Logo.png" alt="" />
+                                  </Link>
                               </div>
                           </div>
                       </div>
@@ -41,43 +65,43 @@ export default function Header() {
                               <nav class="main-menu mobile-menu d-none d-xl-block" id="mobile-menu" style={{"display":"block"}}>
                                   <ul>
                                       <li>
-                                          <a href="https://arunodhai.com/MCG-Computer/newPage">Home</a>
+                                          <Link to="/">Home</Link>
                                       </li>
                                       <li class="menu-has-child">
-                                          <a href="https://arunodhai.com/MCG-Computer/newPage/about-us.php">About Us</a>
+                                          <Link to="/">About Us</Link>
                                           <ul class="submenu">
-                                              <li><a href="#">Clients</a></li>
-                                              <li><a href="#">Vendors</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/testimonials.php">Testimonials</a></li>
+                                              <li><Link to="/">Clients</Link></li>
+                                              <li><Link to="/">Vendors</Link></li>
+                                              <li><Link to="/">Testimonials</Link></li>
                                           </ul>
                                       </li>
                                       <li class="menu-has-child">
-                                          <a href="#">IT Solutions</a>
+                                          <Link to="/">IT Solutions</Link>
                                           <ul class="submenu">
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/IT-Outsourcing.php">IT Outsourcing          </a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/IT-Consulting.php">IT Consulting</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/cloud-and-virtualization.php">Cloud &amp;                 Virtualization</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/network-and-data-security.php">Network &amp; Data Security</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/accounting-IT-Specialist.php">Accounting IT Specialist</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/MS-terminal-server.php">MS Terminal             Server</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/hosted-exchange.php">Hosted Exchange         </a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/MS-Office-365.php">MS Office 365</a></li>
+                                              <li><Link to="/">IT Outsourcing</Link></li>
+                                              <li><Link to="/">IT Consulting</Link></li>
+                                              <li><Link to="/">Cloud &amp;                 Virtualization</Link></li>
+                                              <li><Link to="/">Network &amp; Data Security</Link></li>
+                                              <li><Link to="/">Accounting IT Specialist</Link></li>
+                                              <li><Link to="/">MS Terminal             Server</Link></li>
+                                              <li><Link to="/">Hosted Exchange         </Link></li>
+                                              <li><Link to="/">MS Office 365</Link></li>
                                           </ul>
                                       </li>
                                       <li class="menu-has-child">
-                                          <a href="#">IT Services</a>
+                                          <Link to="#">IT Services</Link>
                                           <ul class="submenu">
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/managed-IT-services.php">Managed IT Services</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/data-backup-and-recovery.php">Data Backup &amp; Recovery</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/onsite-and-remote-support.php">Onsite &amp; Remote Support</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/network-evaluations-and-audits.php">Network Evaluations &amp; Audits</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/PC-and-Notebook-Repair.php">PC and Notebook         Repair</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/virus-scanning-and-removal.php">Virus Scanning          and Removal</a></li>
-                                              <li><a href="https://arunodhai.com/MCG-Computer/newPage/web-development.php">Website                 Development</a></li>
+                                              <li><Link to="/">Managed IT Services</Link></li>
+                                              <li><Link to="/">Data Backup &amp; Recovery</Link></li>
+                                              <li><Link to="/">Onsite &amp; Remote Support</Link></li>
+                                              <li><Link to="/">Network Evaluations &amp; Audits</Link></li>
+                                              <li><Link to="/">PC and Notebook         Repair</Link></li>
+                                              <li><Link to="/">Virus Scanning          and Removal</Link></li>
+                                              <li><Link to="/">Website                 Development</Link></li>
                                           </ul>
                                       </li>
-                                      <li><a href="#">Blogs</a></li>
-                                      <li><a href="https://arunodhai.com/MCG-Computer/newPage/contact.php">Contact</a></li>
+                                      <li><Link to="/">Blogs</Link></li>
+                                      <li><Link to="/">Contact</Link></li>
                                   </ul>
                               </nav>
                               <div class="header-menu-bar d-xl-none ml-10">
