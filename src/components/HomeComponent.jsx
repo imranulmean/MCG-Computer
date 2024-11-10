@@ -53,7 +53,7 @@ export default function HomeComponent() {
         {/* //////////////////// banner area end ////////////////// */}
 
         {/* ////////////////// counter area start //////////////// */}
-        <div class="counter-area pt-45 pb-45">
+        <div class="counter-area pt-45 pb-45" style={{'max-width':'800px','margin':'0 auto'}}>
             <div class="container">
                 <div class="counter-wrap">
                     <div class="row g-0">
@@ -188,7 +188,7 @@ export default function HomeComponent() {
         {/* /////////////////////////  services area end /////////////////// */}
 
         {/* ////////////////////// Results area start ////////////////// */}
-        <section class="h8_about-area pt-100 pb-45">
+        {/* <section class="h8_about-area pt-100 pb-45">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6">
@@ -225,7 +225,7 @@ export default function HomeComponent() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/* ///////////////////////// Results area end /////////////////////         */}
 
         {/* ///////////////////// Why Choose Area /////////////////////// */}
@@ -234,13 +234,14 @@ export default function HomeComponent() {
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img mb-50">
-                            <img class="rounded" src="assets/img/our-promise.png" alt="" />
+                            {/* <img class="rounded" src="assets/img/our-promise.png" alt="" /> */}
+                            <img class="rounded" src="https://cdn.prod.website-files.com/642ba5689bd04851f7503904/64349c116b114a325b6e0907_Home-OurPromise.jpg" alt="" />
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-content mb-50">
                             <div class="section-area mb-20">
-                                <h2 class="section-title mb-15">Our Promise</h2>
+                                <h2 class="section-title mb-15">Our Mission</h2>
                                 <p class="section-text">
                                     At MCG Computers Australia, Our mission is to provide our customers with the best possible secure managed technology services and solutions. Cyber security is at the centre of everything we do, and we are committed to protecting our customers from cyber threats.
                                 </p>
@@ -255,8 +256,9 @@ export default function HomeComponent() {
         </div>
 
         {/* /////////////////////// counter area start ////////////////// */}
-        <div class="h8_counter-area bg-default pt-100 pb-100" data-background="assets/img/statistics-bg.png" style={{"background-image":"url(assets/img/statistics-bg.png)"}}>
-            <div class="container">
+        {/* <div class="h8_counter-area bg-default pt-100 pb-100" data-background="assets/img/statistics-bg.png" style={{"background-image":"url(assets/img/statistics-bg.png)"}}> */}
+        <div class="h8_counter-area bg-default pt-100 pb-100" style={{"background":"#dbf1f3"}}>
+            <div class="container" style={{"max-width":"1000px"}}>
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8 col-md-10">
                         <div class="testimonial-section-area text-center">
@@ -328,7 +330,7 @@ export default function HomeComponent() {
         <div class="brand-area h6_brand-area pt-140 pb-140">
             <div class="container">
                 <div class="section-area text-center mb-100">
-                    <h2 class="section-title mb-0">We partner with leading technology brands</h2>
+                    <h2 class="section-title mb-0" style={{'font-size':'20px'}}>We partner with leading technology brands</h2>
                 </div>
                 <div class="brand-wrap">
                     <div class="brand-active-2 swiper">
@@ -408,20 +410,20 @@ export default function HomeComponent() {
         
         {/* //////////////// cta area start ///////////////// */}
         <div class="h3_cta-area">
-            <div class="container">
-                <div class="cta-wrapper">
+            <div class="container" style={{'display':'flex', 'justify-content':'center', 'align-items':'center'}}>
+                <div class="cta-wrapper" style={{"max-width":"900px"}}>
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-6 p-25">
                             <img src="assets/img/contact-logo.png" />
                         </div>
                         <div class="col-xl-8 col-lg-6 pl-40 pt-2">
                             <div class="cta-content mb-30 mb-lg-0">
-                                <h2 class="cta-title">Consult with our IT experts today</h2>
+                                <h2 class="cta-title" style={{"font-size":"28px"}}>Consult with our IT experts today</h2>
                                 <p>Whether you're just starting your journey to the cloud, looking to optimise your existing infrastructure or improve your cyber security posture, we're here to help.</p>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-6">
-                            <div class="cta-button">
+                            <div class="cta-button" style={{"display":"block"}}>
                                 <a href="#" class="theme-btn">Contact Us</a>
                             </div>
                         </div>

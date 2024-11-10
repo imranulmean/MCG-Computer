@@ -6437,7 +6437,8 @@ input:focus::placeholder, textarea:focus::placeholder {
   background: #fff;
 }
 .h3_category-item {
-  background: #f3fffe;
+  /* background: #f3fffe; */
+  background: #dbf1f3;
   box-shadow: 0px 2px 4px rgba(23, 22, 28, 0.1);
   padding: 25px;
   border-radius: 10px;
@@ -14658,7 +14659,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   background-color: #0f5355;
   border-radius: 10px;
   padding: 30px 50px 30px;
-  box-shadow: 0px 10px 20px rgba(30, 30, 30, 0.3);
+  /* box-shadow: 0px 10px 20px rgba(30, 30, 30, 0.3); */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .cta-wrapper {
@@ -19452,7 +19453,8 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #fff;
 }
 .footer-widget-list ul{
-    list-style-type:disc !important;
+    /* list-style-type:disc !important; */
+    list-style-type:none;
     color: #fff;
 }
 .footer-widget-list ul li {
