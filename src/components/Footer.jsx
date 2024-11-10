@@ -4,7 +4,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsDribbble } from 'react-
 export default function FooterCom() {
   return (
           <footer class="footer-area">
-            <div class="footer-top pt-120 pb-55">
+            <div class="footer-top" style={{'padding':'60px 0'}}>
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-xl-3 col-lg-7 col-md-7 col-sm-12 d-flex justify-content-xl-center">
@@ -14,13 +14,13 @@ export default function FooterCom() {
                                       <img src="assets/img/MCG-footer-logo.png" alt="" />
                                     </Link>
                                 </div>
-                                <p class="footer-widget-text mb-35">
+                                <p class="footer-widget-text">
                                     MCG Computer, a leading IT company based in Melbourne since 1991, delivers managed IT services and solutions designed to enhance your business's value by reducing IT costs and safeguarding against data loss.
                                 </p>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-5 col-md-5 col-sm-6 d-flex justify-content-xl-center">
-                            <div class="footer-widget mb-40">
+                            <div class="footer-widget">
                                 <h5 class="footer-widget-title">Quick Link</h5>
                                 <div class="footer-widget-list">
                                     <ul>
@@ -33,7 +33,7 @@ export default function FooterCom() {
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-5 col-md-5 col-sm-6 d-flex justify-content-xl-center order-md-4 order-xl-3">
-                            <div class="footer-widget mb-40">
+                            <div class="footer-widget">
                                 <h5 class="footer-widget-title">Our Services</h5>
                                 <div class="footer-widget-list">
                                     <ul>
@@ -46,7 +46,7 @@ export default function FooterCom() {
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-7 col-md-7 col-sm-12 order-md-3 order-xl-4">
-                            <div class="footer-widget ml-80 mb-40">
+                            <div class="footer-widget ml-80">
                                 <h5 class="footer-widget-title">Follow Us</h5>
                                 <p class="footer-widget-text mb-20 newsletter-text">The latest news, articles, sent to your inbox weekly.</p>
                                 <div class="footer-social">

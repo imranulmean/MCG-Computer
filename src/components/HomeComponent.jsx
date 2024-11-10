@@ -25,13 +25,13 @@ export default function HomeComponent() {
     return (
      <>
         {/* ///////// banner area start /////////// */}
-        <section class="h2_banner-area">
+        <section class="h2_banner-area" style={{'padding':"60px 0"}}>
           <div class="h2_single-banner">
               <div class="container">
                   <div class="row align-items-center">
                       <div class="col-xl-6 col-lg-6 col-md-12">
                           <div class="h2_banner-content">
-                              <div class="section-area-2 mb-45 ">
+                              <div class="section-area-2 ">
                                   <h1 class="section-title">Your trusted partner in IT security and Reliable IT Support</h1>
                                   <p class="section-text">Partner with MCG Computer for Cost-Effective IT Solutions backed by technical expertise and more than 30 years of experience.</p>
                               </div>
@@ -53,7 +53,7 @@ export default function HomeComponent() {
         {/* //////////////////// banner area end ////////////////// */}
 
         {/* ////////////////// counter area start //////////////// */}
-        <div class="counter-area pt-45 pb-45" style={{'max-width':'800px','margin':'0 auto'}}>
+        <div class="counter-area" style={{'max-width':'800px','margin':'0 auto'}}>
             <div class="container">
                 <div class="counter-wrap">
                     <div class="row g-0">
@@ -106,7 +106,7 @@ export default function HomeComponent() {
         {/* //////////////////// counter area end /////////////////// */}
 
         {/* ///////////////////// services area start ///////////////// */}
-        <section class="h3_category-area pt-45 pb-45">
+        <section class="h3_category-area" style={{'padding':'60px 0'}}>
           <div class="container">
               <div class="row align-items-end mb-30">
                   <div class="section-area">
@@ -229,7 +229,7 @@ export default function HomeComponent() {
         {/* ///////////////////////// Results area end /////////////////////         */}
 
         {/* ///////////////////// Why Choose Area /////////////////////// */}
-        <div class="h4_faq-area pt-45 pb-45">
+        <div class="h4_faq-area" style={{'padding-bottom':"30px"}}>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6">
@@ -257,18 +257,18 @@ export default function HomeComponent() {
 
         {/* /////////////////////// counter area start ////////////////// */}
         {/* <div class="h8_counter-area bg-default pt-100 pb-100" data-background="assets/img/statistics-bg.png" style={{"background-image":"url(assets/img/statistics-bg.png)"}}> */}
-        <div class="h8_counter-area bg-default pt-100 pb-100" style={{"background":"#dbf1f3"}}>
+        <div class="h8_counter-area bg-default" style={{"background":"#dbf1f3", 'padding':'60px 0'}}>
             <div class="container" style={{"max-width":"1000px"}}>
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8 col-md-10">
                         <div class="testimonial-section-area text-center">
-                            <div class="section-area mb-55">
-                                <h2 class="section-title mb-20">Our statistics speak for themselves</h2>
+                            <div class="section-area" style={{'margin-bottom':"32px"}}>
+                                <h2 class="section-title">Our statistics speak for themselves</h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-50">
+                <div class="row justify-content-center">
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <div class="h8_counter-item justify-content-center mb-25">
                             <div class="h8_counter-info">
@@ -327,9 +327,9 @@ export default function HomeComponent() {
         {/* ////////////////////// counter area end ////////////////// */}
 
         {/* //////////////////////// brand area start //////////////////// */}
-        <div class="brand-area h6_brand-area pt-140 pb-140">
+        <div class="brand-area h6_brand-area" style={{'padding':'60px 0'}}>
             <div class="container">
-                <div class="section-area text-center mb-100">
+                <div class="section-area text-center" style={{'margin-bottom':"32px"}}>
                     <h2 class="section-title mb-0" style={{'font-size':'20px'}}>We partner with leading technology brands</h2>
                 </div>
                 <div class="brand-wrap">
@@ -409,9 +409,9 @@ export default function HomeComponent() {
         {/* ///////////////////// brand area end ///////////////////              */}
         
         {/* //////////////// cta area start ///////////////// */}
-        <div class="h3_cta-area">
+        <div class="h3_cta-area" style={{'padding-bottom':"60px"}}>
             <div class="container" style={{'display':'flex', 'justify-content':'center', 'align-items':'center'}}>
-                <div class="cta-wrapper" style={{"max-width":"900px"}}>
+                <div class="cta-wrapper" style={{"max-width":"900px", 'margin-bottom':'0px'}}>
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-6 p-25">
                             <img src="assets/img/contact-logo.png" />

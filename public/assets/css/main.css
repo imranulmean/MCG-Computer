@@ -3603,7 +3603,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   background-image : url('../../assets/img/mcg/banner-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 670px;
+  /* min-height: 670px; */
   display: flex;
   align-items: center;
 }
@@ -3649,7 +3649,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   font-size: 25px;
   color: #0f5355;
   margin-bottom: 15px;
-  line-height: 30px;
+  /* line-height: 30px; */
   font-weight:600;
 }
 .h2_banner-content-text a {
@@ -5597,13 +5597,13 @@ input:focus::placeholder, textarea:focus::placeholder {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .h2_banner-content .section-title {
     /* font-size: 60px; */
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .h2_banner-content .section-title {
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 20px;
   }
 }
@@ -12489,6 +12489,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   border: 1px solid rgba(30, 30, 30, 0.1);
   border-radius:25px;
 }
+
 .counter-item {
   display: flex;
   gap: 20px;
@@ -12517,7 +12518,8 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 .counter-icon i {
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 35px;
   color: #0f5355;
   flex-shrink: 0;
   display: block;
@@ -12541,7 +12543,8 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .counter-info-title {
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 35px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12555,7 +12558,8 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 .counter-info-text {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 14px;
   text-transform: uppercase;
   color: #101010;
   display: inline-block;
@@ -19404,6 +19408,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 .footer-area .footer-widget-text{
     color:#fff;
+    font-size:14px;
 }
 .footer-social ul {
   display: flex;
@@ -19468,7 +19473,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   margin-bottom: 0;
 }
 .footer-widget-list ul li a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   color: #fff;
@@ -19595,7 +19600,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 
 .copyright-area {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 30px 0;
+  padding: 20px 0;
 }
 .copyright-text p {
   text-align: center;
