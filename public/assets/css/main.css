@@ -5596,7 +5596,8 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .h2_banner-content .section-title {
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 50px;
     margin-bottom: 20px;
   }
 }
